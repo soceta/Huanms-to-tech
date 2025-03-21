@@ -89,3 +89,297 @@
   </footer>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Survey - Human to Tech</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #FFA500;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 15px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 8px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin: 10px 0 5px;
+    }
+    input[type="range"],
+    select {
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      margin-bottom: 15px;
+    }
+    .button {
+      padding: 15px;
+      background: linear-gradient(90deg, #FF7F50, #FF4500);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .button:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" style="color:#FFA500;">Home</a> |
+      <a href="about.html" style="color:#FFA500;">About</a> |
+      <a href="survey.html" style="color:#FFA500;">Survey</a> |
+      <a href="results.html" style="color:#FFA500;">Results</a> |
+      <a href="contact.html" style="color:#FFA500;">Contact</a>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <h2>AI & Technology Survey</h2>
+    <form action="results.html" method="POST">
+      <label for="agree">With the accelerated AI development, if you get the chance to add techno devices, chips, or nanorobots to yourself, do you agree?</label>
+      <select id="agree" name="agree" required>
+        <option value="">--Select an option--</option>
+        <option value="yes">YES</option>
+        <option value="no">NO</option>
+      </select>
+      
+      <label for="fear">From 0 to 10, how much does AI scare you? (0 = no fear)</label>
+      <input type="range" id="fear" name="fear" min="0" max="10" step="1">
+      
+      <button type="submit" class="button">Submit Survey</button>
+    </form>
+  </div>
+  
+  <footer>
+    &copy; 2025 Human to Tech
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About - Human to Tech</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #FFA500;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 15px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 8px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" style="color:#FFA500;">Home</a> |
+      <a href="about.html" style="color:#FFA500;">About</a> |
+      <a href="survey.html" style="color:#FFA500;">Survey</a> |
+      <a href="results.html" style="color:#FFA500;">Results</a> |
+      <a href="contact.html" style="color:#FFA500;">Contact</a>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <h2>About Human to Tech</h2>
+    <p><strong>Loreen Siana</strong> presents <em>Human to Tech</em>—a project exploring the close integration between humans and technology. Our rapid technological evolution, especially in AI, raises questions: Are we advancing into a future of augmented capabilities or stepping into unprecedented challenges? This project invites you to share your perspective and helps build a data-driven understanding of our collective sentiment toward technological integration.</p>
+    <p>By participating in our survey, you contribute to an evolving database that will be analyzed over time. Our aim is to encourage thoughtful dialogue and informed decisions about the future of AI and human augmentation.</p>
+  </div>
+  
+  <footer>
+    &copy; 2025 Human to Tech
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Results - Human to Tech</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #FFA500;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 15px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 8px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" style="color:#FFA500;">Home</a> |
+      <a href="about.html" style="color:#FFA500;">About</a> |
+      <a href="survey.html" style="color:#FFA500;">Survey</a> |
+      <a href="results.html" style="color:#FFA500;">Results</a> |
+      <a href="contact.html" style="color:#FFA500;">Contact</a>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <h2>Survey Results</h2>
+    <p>This section will display the survey results and data visualizations as responses are collected.</p>
+    <p><em>Coming Soon...</em></p>
+  </div>
+  
+  <footer>
+    &copy; 2025 Human to Tech
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - Human to Tech</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #FFA500;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 15px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 8px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    input[type="text"], input[type="email"], textarea {
+      padding: 10px;
+      border-radius: 4px;
+      border: none;
+      margin-bottom: 15px;
+    }
+    .button {
+      padding: 15px;
+      background: linear-gradient(90deg, #FF7F50, #FF4500);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .button:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" style="color:#FFA500;">Home</a> |
+      <a href="about.html" style="color:#FFA500;">About</a> |
+      <a href="survey.html" style="color:#FFA500;">Survey</a> |
+      <a href="results.html" style="color:#FFA500;">Results</a> |
+      <a href="contact.html" style="color:#FFA500;">Contact</a>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit" class="button">Send Message</button>
+    </form>
+  </div>
+  
+  <footer>
+    &copy; 2025 Human to Tech
+  </footer>
+</body>
+</html>
+
