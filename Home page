@@ -1,385 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Human to Tech</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Arial', sans-serif;
-      background: #0a0a0a;
-      color: #FFA500;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-    header {
-      background: #1a1a1a;
-      padding: 20px;
-      text-align: center;
-    }
-    header nav a {
-      margin: 0 15px;
-      color: #FFA500;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .hero {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 40px;
-    }
-    .hero h1 {
-      font-size: 4rem;
-      text-transform: uppercase;
-      letter-spacing: 0.3rem;
-    }
-    .hero p {
-      font-size: 1.5rem;
-      margin-top: 1rem;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 15px 30px;
-      font-size: 1rem;
-      color: #ffffff;
-      background: linear-gradient(90deg, #FF7F50, #FF4500);
-      text-decoration: none;
-      border-radius: 8px;
-      transition: transform 0.3s;
-    }
-    .button:hover {
-      transform: scale(1.1);
-    }
-    footer {
-      background: #1a1a1a;
-      padding: 10px;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homo Technologicus</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="survey.html">Survey</a>
-      <a href="results.html">Results</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <div class="hero">
-    <h1>Human to Tech</h1>
-    <p>Exploring the evolution of human-technology integration. Join our survey and shape the future!</p>
-    <a href="survey.html" class="button">Take the Survey</a>
-  </div>
-
-  <footer>
-    &copy; 2025 Human to Tech | <a href="about.html" style="color: #FFA500; text-decoration: none;">About Us</a>
-  </footer>
+    <header>
+        <h1>Welcome to Homo Technologicus</h1>
+    </header>
+    <main>
+        <section>
+            <p>Dear homo-sapiens, welcome to the first humans’ reactions/acceptance database where you can witness the development of our normal human brain that carries concerns, feelings, behaviors, and skepticism about artificial intelligence and its consequences.</p>
+            <p>Here in <strong>Homo Technologicus</strong>, we are interested in the present and the future of artificial intelligence, which has become a significant part of our short life. We are the first platform designed and operated to record human reactions to AI and analyze them over time, taking into account societal changes, economic status, and ethical beliefs. This website is significant.</p>
+        </section>
+        <section>
+            <p>Dear homo-sapiens, you are most welcome to print your pure neurological feelings with 2 basic simple questions. This Web is mainly about taking a survey from people as a primitive record. All you have to do is to give us 1 to 3 mins from your short life to contribute to this database. The first question is about whether you agree or don’t agree with adding AI supplies to yourself. And the next question is to scale yourself from 0 to 10 for how much fear does this idea “adding AI supplies to yourself” scares you. 0 means no fear at all.</p>
+        </section>
+        <section>
+            <p>Regardless of my way of talking, this website reminds you that we are more than feelings; we have the brain that was the reason for AI in the first place. It is totally understandable that this quick development causes fear for many of us. We want to remind ourselves here that things need to be understandable so that they become less scary.</p>
+        </section>
+        <section>
+            <img src="https://pixabay.com/illustrations/ai-artificial-intelligence-humanoid-7265839/" alt="AI and Human Connection">
+        </section>
+    </main>
+    <footer>
+        <p>This platform uses old internet technologies so that it can be safe and far from AI manipulation. (Just kidding cuz I know this is not possible lol)</p>
+    </footer>
 </body>
 </html>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Survey - Human to Tech</title>
-  <style>
-    body {
-      background: #0a0a0a;
-      color: #FFA500;
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header, footer {
-      background: #1a1a1a;
-      text-align: center;
-      padding: 15px;
-    }
-    .container {
-      max-width: 600px;
-      margin: 30px auto;
-      padding: 20px;
-      background: rgba(0, 0, 0, 0.7);
-      border-radius: 8px;
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-    label {
-      margin: 10px 0 5px;
-    }
-    input[type="range"],
-    select {
-      padding: 10px;
-      border: none;
-      border-radius: 4px;
-      margin-bottom: 15px;
-    }
-    .button {
-      padding: 15px;
-      background: linear-gradient(90deg, #FF7F50, #FF4500);
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-    .button:hover {
-      transform: scale(1.05);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take the Survey - Homo Technologicus</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html" style="color:#FFA500;">Home</a> |
-      <a href="about.html" style="color:#FFA500;">About</a> |
-      <a href="survey.html" style="color:#FFA500;">Survey</a> |
-      <a href="results.html" style="color:#FFA500;">Results</a> |
-      <a href="contact.html" style="color:#FFA500;">Contact</a>
-    </nav>
-  </header>
-  
-  <div class="container">
-    <h2>AI & Technology Survey</h2>
-    <form action="results.html" method="POST">
-      <label for="agree">With the accelerated AI development, if you get the chance to add techno devices, chips, or nanorobots to yourself, do you agree?</label>
-      <select id="agree" name="agree" required>
-        <option value="">--Select an option--</option>
-        <option value="yes">YES</option>
-        <option value="no">NO</option>
-      </select>
-      
-      <label for="fear">From 0 to 10, how much does AI scare you? (0 = no fear)</label>
-      <input type="range" id="fear" name="fear" min="0" max="10" step="1">
-      
-      <button type="submit" class="button">Submit Survey</button>
-    </form>
-  </div>
-  
-  <footer>
-    &copy; 2025 Human to Tech
-  </footer>
+    <header>
+        <h1>Take the Survey</h1>
+    </header>
+    <main>
+        <section>
+            <p>Your submission is like a record for earlier humans’ thoughts and emotions about the AI around us and inside us. The information will be recorded in a database and analyzed, and can be represented in graphic images for the public. There will be some filter tools to sort the country, age, sex, and level of education to witness humans' different reactions across the world. Your submission will contribute to the graph shape and reflection.</p>
+        </section>
+        <section>
+            <form action="/submit" method="post">
+                <label for="name">First and Last Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required><br><br>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required><br><br>
+
+                <label for="sex">Sex:</label>
+                <select id="sex" name="sex" required>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                    <option value="prefer_not_to_say">Prefer not to say</option>
+                </select><br><br>
+
+                <label for="education">Last Education Level:</label>
+                <input type="text" id="education" name="education" required><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="first_record">Is this your first record in our web?</label>
+                <select id="first_record" name="first_record" required>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select><br><br>
+
+                <label for="tech_tools">Have you ever added any tech tools to yourself?</label>
+                <select id="tech_tools" name="tech_tools" required>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Homo Technologicus. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1em;
+}
+
+input, select {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+input[type="submit"] {
+    margin-top: 2em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About - Human to Tech</title>
-  <style>
-    body {
-      background: #0a0a0a;
-      color: #FFA500;
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header, footer {
-      background: #1a1a1a;
-      text-align: center;
-      padding: 15px;
-    }
-    .container {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 20px;
-      background: rgba(0, 0, 0, 0.7);
-      border-radius: 8px;
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    p {
-      line-height: 1.6;
-      margin-bottom: 15px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Homo Technologicus</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html" style="color:#FFA500;">Home</a> |
-      <a href="about.html" style="color:#FFA500;">About</a> |
-      <a href="survey.html" style="color:#FFA500;">Survey</a> |
-      <a href="results.html" style="color:#FFA500;">Results</a> |
-      <a href="contact.html" style="color:#FFA500;">Contact</a>
-    </nav>
-  </header>
-  
-  <div class="container">
-    <h2>About Human to Tech</h2>
-    <p><strong>Loreen Siana</strong> presents <em>Human to Tech</em>—a project exploring the close integration between humans and technology. Our rapid technological evolution, especially in AI, raises questions: Are we advancing into a future of augmented capabilities or stepping into unprecedented challenges? This project invites you to share your perspective and helps build a data-driven understanding of our collective sentiment toward technological integration.</p>
-    <p>By participating in our survey, you contribute to an evolving database that will be analyzed over time. Our aim is to encourage thoughtful dialogue and informed decisions about the future of AI and human augmentation.</p>
-  </div>
-  
-  <footer>
-    &copy; 2025 Human to Tech
-  </footer>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <section>
+            <p>We'd love to hear from you! If you have any questions, suggestions, or just want to connect, please fill out the form below or reach out to us via email.</p>
+            <form action="/contact" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+        <section>
+            <p>Email: <a href="mailto:contact@homotechnologicus.com">contact@homotechnologicus.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Homo Technologicus. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Results - Human to Tech</title>
-  <style>
-    body {
-      background: #0a0a0a;
-      color: #FFA500;
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header, footer {
-      background: #1a1a1a;
-      text-align: center;
-      padding: 15px;
-    }
-    .container {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 20px;
-      background: rgba(0, 0, 0, 0.7);
-      border-radius: 8px;
-      text-align: center;
-    }
-    h2 {
-      margin-bottom: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Homo Technologicus</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html" style="color:#FFA500;">Home</a> |
-      <a href="about.html" style="color:#FFA500;">About</a> |
-      <a href="survey.html" style="color:#FFA500;">Survey</a> |
-      <a href="results.html" style="color:#FFA500;">Results</a> |
-      <a href="contact.html" style="color:#FFA500;">Contact</a>
-    </nav>
-  </header>
-  
-  <div class="container">
-    <h2>Survey Results</h2>
-    <p>This section will display the survey results and data visualizations as responses are collected.</p>
-    <p><em>Coming Soon...</em></p>
-  </div>
-  
-  <footer>
-    &copy; 2025 Human to Tech
-  </footer>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Our Mission</h2>
+            <p>At Homo Technologicus, our mission is to explore the intersection of humanity and technology. We aim to understand and document human reactions to the rapid advancements in artificial intelligence, fostering a dialogue about the future of AI and its impact on society.</p>
+        </section>
+        <section>
+            <h2>Our Team</h2>
+            <p>We are a passionate group of individuals dedicated to unraveling the complexities of AI and its influence on human life. Our team consists of researchers, technologists, and enthusiasts who believe in the power of knowledge and understanding to shape a better future.</p>
+        </section>
+        <section>
+            <h2>What We Do</h2>
+            <p>We collect and analyze data on human perceptions of AI through surveys and interactions. Our platform serves as a database of human thoughts and emotions, providing insights into how AI is shaping our world and how we, in turn, are shaping AI.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Homo Technologicus. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact - Human to Tech</title>
-  <style>
-    body {
-      background: #0a0a0a;
-      color: #FFA500;
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header, footer {
-      background: #1a1a1a;
-      text-align: center;
-      padding: 15px;
-    }
-    .container {
-      max-width: 600px;
-      margin: 30px auto;
-      padding: 20px;
-      background: rgba(0, 0, 0, 0.7);
-      border-radius: 8px;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-    label {
-      margin-top: 10px;
-      margin-bottom: 5px;
-    }
-    input[type="text"], input[type="email"], textarea {
-      padding: 10px;
-      border-radius: 4px;
-      border: none;
-      margin-bottom: 15px;
-    }
-    .button {
-      padding: 15px;
-      background: linear-gradient(90deg, #FF7F50, #FF4500);
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-    .button:hover {
-      transform: scale(1.05);
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="index.html" style="color:#FFA500;">Home</a> |
-      <a href="about.html" style="color:#FFA500;">About</a> |
-      <a href="survey.html" style="color:#FFA500;">Survey</a> |
-      <a href="results.html" style="color:#FFA500;">Results</a> |
-      <a href="contact.html" style="color:#FFA500;">Contact</a>
-    </nav>
-  </header>
-  
-  <div class="container">
-    <h2>Contact Us</h2>
-    <form action="#" method="POST">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-      
-      <button type="submit" class="button">Send Message</button>
-    </form>
-  </div>
-  
-  <footer>
-    &copy; 2025 Human to Tech
-  </footer>
-</body>
-</html>
-
